@@ -18,7 +18,7 @@ class SearchMainPage(BaseTest, unittest.TestCase):
         
        
     def testsearchMain(self):
-        search_term = ""
+        search_term = "lose weight"
         self.page._search_query_locator = search_term
         self.page._search_submit.click()
 
